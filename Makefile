@@ -5,5 +5,7 @@ install:
 		sudo cp git-topdir ${INSTALL_DIR}; \
 	fi
 
-clean:
-	sudo rm ${INSTALL_DIR}/git-topdir
+uninstall:
+	if [ -d ${INSTALL_DIR} ]; then \
+		sudo rm ${INSTALL_DIR}/git-topdir; \
+	fi
