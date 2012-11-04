@@ -12,3 +12,8 @@ DESCRIPTION
 ===========
 
 git-topdir can move to top dirctory of git repository.
+
+THANKS
+======
+
+knu teach this me, thank you.
